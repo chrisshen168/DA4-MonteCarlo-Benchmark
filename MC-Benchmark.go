@@ -42,7 +42,7 @@ func main() {
 		{"json16mb01", "json"},
 		{"text02mb01", "text"},
 		{"text04mb01", "text"},
-		{"text98mb01", "text"},
+		{"text08mb01", "text"},
 		{"text16mb01", "text"},
 	}
 
