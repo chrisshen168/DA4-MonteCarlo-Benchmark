@@ -369,7 +369,7 @@ run_crud_operationsLite(sq3_conn, table_name, table_name2, datatype, num_cycles)
 table_name = 'json02mb01'
 table_name2 = 'json02mb02'
 datatype = 'json'
-num_cycles = 2
+num_cycles = 100
 
 run_crud_operationsLite(sq3_conn, table_name, table_name2, datatype, num_cycles)
 
