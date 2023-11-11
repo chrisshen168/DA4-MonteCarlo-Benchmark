@@ -55,7 +55,6 @@ def update_recordLite(sq3_conn, table_name, table_name2, datatype):
 def delete_all_recordsLite(sq3_conn, table_name):
     s = sq3_conn.cursor()
     s.execute(f"DELETE FROM {table_name}")
-    s.execute(f"DROP TABLE IF EXISTS {table_name}")
     sq3_conn.commit()
     
 
@@ -191,7 +190,7 @@ def run_crud_operationsLite(sq3_conn, table_name, table_name2, datatype, num_cyc
         # Overall update time
         update_timesO.append(end_time2 - start_time1)         
 
-        # Delete all records and the table
+        # Delete all records
         start_time = time.time()
         delete_all_recordsLite(sq3_conn, table_name)
         end_time9 = time.time()
