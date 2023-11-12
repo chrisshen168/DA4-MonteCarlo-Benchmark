@@ -11,7 +11,7 @@
 ## The abbreviations used for the field names in the table 1 and table 2 are explained as follows: Create (C), Read (R), Update (U), Delete (D), Create2 (C′, for the second table, created and data-inserted in UpdateOverall), UpdateOverall (O, for UpdateOverall = Create2 + Update) and Total (T) Operation Times. Corresponding to the 4 Go files, G1= Go + SQ1; G4 = Go + SQ2: G5 = Go + SQ3; G6 = Go + SQ3 + all data treated as string values; Py = Python.
 
 ## Table 1. Execution Times (in Seconds)
-![Table1](https://github.com/chrisshen168/MSDS460-MonteCarlo-Benchmark/assets/147928298/fbbd19cf-57fb-48f6-b935-e3cd7a813dfd)
+https://github.com/chrisshen168/MSDS460-MonteCarlo-Benchmark/blob/main/Table1.jpg
 
 ## Table 2. Execution Times Per Million Records (in Seconds)
-![Table2](https://github.com/chrisshen168/MSDS460-MonteCarlo-Benchmark/assets/147928298/94f23472-9833-48d0-be14-5f726cfaf952)
+https://github.com/chrisshen168/MSDS460-MonteCarlo-Benchmark/blob/main/Table2.jpg
